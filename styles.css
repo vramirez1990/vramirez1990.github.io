@@ -1,0 +1,142 @@
+
+body{
+    background-color: #f8f8f8;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 100px;
+    padding: 80px;
+    margin: 10px;
+}
+
+.Datos{
+    column-count: 2;
+    column-gap: 100px;
+}
+
+.formatotitulos
+{
+    color: #b15247; 
+    font-size: 30px;
+
+}
+h1{
+    text-align: center;
+    color: #81353b;
+    height: 50px;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 150;
+    font-size: 80px;
+    margin: 15px 0px 50px 0px;
+}
+
+nav ul li {
+    display: inline; 
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+
+nav ul li a {
+    display: inline; 
+    padding: 55px;
+    color: #ffbe62;
+    text-decoration: none;
+  }
+
+  nav ul li:hover {
+    background: #fceea0;
+}   
+
+#separador{
+    width: 1175px;
+    height: 10px;
+    background-color: #81353b;
+    margin: 15px 0px 15px 0px;
+}
+
+h3{
+    text-decoration: underline #bb7339;
+    color: #bb7339;
+}
+
+
+h4{
+    color: #ffbe62;
+    height: 10px;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 15;
+    font-size: 20px;
+    margin: 15px 0px 50px 0px;
+}
+
+#columnas{
+    column-count:2;
+    column-gap:50px;
+    column-rule:6px Ridge #f07e54;
+ }
+
+.caja{
+    width: 190px;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    line-height: 15px;
+    float: left;
+}
+
+.txtpie{
+    font-size: 25px;
+    text-align: center;
+    position: center;
+    color: #f07e54;
+}
+
+#Subtitulo{
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 45px;
+    font-weight: 200;
+    color: #f07e54;
+    border: 0;
+    margin: 15px 0px 20px 0px;
+}
+
+#btnActualizacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #ffbe62;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 0.5px solid rgb(228, 133, 45);
+    padding: 7px 15px;
+}
+
+#imagen-CV{
+    border: solid #ffbe62;
+    height: 180px;
+    width: 180px;
+    float: right;
+}
+
+.btnscrolltop{
+    position: center;
+    bottom: 10px;
+    right: 10px;
+    padding: 7px 15px;
+    background-color: #ffbe62;
+    color: rgb(4, 55, 65);
+    border: 0.5px solid rgb(228, 133, 45);
+    border-radius: 100%;
+    cursor: pointer;
+}
